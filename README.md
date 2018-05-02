@@ -2,4 +2,4 @@
 Ini adalah repository untuk latihan dalam mengembangkan praktikum open source systems
 Cara menjalankan file python adalah dengan masuk ke terminal lalu ketikkan perintah python namaFILE.py
 
-#NAMA = Vibi Muhlisin, NIM : G.231.16.0022 -- > isilah hasil dari running 1.py dan 2.py
+#NAMA = Hendri johar, NIM : G.231.16.0013 -- > Jujur ya pak saya sudah tak coba tapi belum bisa running pak syntac eror ( masih bingung tata cara penempatan syntac )
