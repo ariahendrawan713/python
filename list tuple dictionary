@@ -1,3 +1,6 @@
+ASEP TRI BUDIARTO
+G.231.16.0010
+
 list : 
 binatang = ["gajah", "beruang", "kucing", "burung"]
 cara menampilkan beruang(index=1) :
