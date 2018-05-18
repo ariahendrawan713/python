@@ -1,0 +1,27 @@
+list : 
+binatang = ["gajah", "beruang", "kucing", "burung"]
+cara menampilkan beruang(index=1) :
+print binatang [1]
+
+tuple :
+minuman = ('teh', 'kopi', 'susu')
+cara menampilkan minuman kopi(index=1)
+print minuman[1]
+
+
+dictionary:
+laptop = {'Merk': 'Asus', 'Prosesor': 'Dual Core', 'Harga': 3500000, 'Tipe': 'A450C'};
+ 
+#menampilkan nama
+print "Merk : ", laptop['Merk'];
+ 
+#menampilkan no urut
+print "Harga : ", laptop['Harga'];
+
+berbeda dengan tuple , dictonary bisa update data : 
+#menambahkan data
+laptop['RAM'] = '4GB';
+
+del laptop['Tipe']; # menghapus key Tipe
+laptop.clear(); # menghapus semua key pada dictionary
+del laptop; # menghapus dictionary
