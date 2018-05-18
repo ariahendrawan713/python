@@ -1,0 +1,58 @@
+list.py
+
+alat_tulis = ["pensil","penghapus","bolpoin"]
+elektronik = ["tv","radio","handphone"]
+kendaraan = ["motor","pesawat","becak"]
+
+print(alat_tulis)
+print(elektronik)
+print(kendaraan)
+
+
+
+-----------------------------------------------
+
+
+
+tuple.py
+
+alat_tulis = ("pensil","penghapus","bolpoin")
+elektronik = ("tv","radio","handphone")
+kendaraan = ("motor","pesawat","becak")
+
+
+print(alat_tulis)
+print(elektronik)
+print(kendaraan)
+
+
+-------------------------------------------------
+
+dictionaries.py
+
+
+alat_tulis = {
+"kayu" : "pensil",
+"karet" : "penghapus",
+"tinta" : "bolpoin"
+}
+
+print(alat_tulis)
+
+elektronik = {
+"lihat" : "tv",
+"dengar" : "radio",
+"main" : "hanphone"
+}
+
+print(elektronik)
+
+
+kendaraan = {
+"laut" : "kapal",
+"udara" : "pesawat",
+"darat" : "becak"
+}
+
+print(kendaraan)
+
