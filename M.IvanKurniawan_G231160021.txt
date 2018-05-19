@@ -1,0 +1,23 @@
+list : 
+buah = ["jeruk", "apel", "mangga", "duren"]
+cara menampilkan mangga(index=2) :
+print buah[2]
+
+tuple :
+makanan = ('soto', 'mie ayam')
+cara menampilkan makanan soto(index=0)
+print makanan[0]
+
+
+dictionary:
+biodata = {'Nama': 'Wayan', 'Asal': 'Gianyar', 'Umur': 21, 'NoUrut': 1};
+ 
+#menampilkan nama
+print "Nama : ", biodata['Nama'];
+ 
+#menampilkan no urut
+print "No Urut: ", biodata['NoUrut'];
+
+berbeda dengan tuple , dictonary bisa update data : 
+#menambahkan data
+biodata['JenisKelamin'] = 'Pria';
