@@ -1,0 +1,34 @@
+#list : 
+warna = ["putih", "biru", "merah", "hijau", "kuning"]
+
+cara menampilkan isi dari list :
+print warna[0]
+
+hasilnya :
+putih
+
+
+#tuple :
+buah = ('apel', 'anggur', 'jeruk', 'semangka', 'melon')
+
+cara menampilkan isi dari tuple :
+print buah[1]
+
+hasilnya :
+anggur
+
+
+#dictionary :
+celana = {'warna': 'hitam', 'bahan': 'jeans', 'ukuran': 30}
+ 
+cara menampilkan warna :
+print "Warna celana adalah ", celana['warna'];
+
+hasilnya :
+Warna celana adalah hitam
+
+cara menambah data : 
+celana['harga'] = 250000;
+
+cara mengubah data :
+celana['warna'] = 'biru';
