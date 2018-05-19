@@ -1,0 +1,24 @@
+Nama : Susilo Hasbi Ashidiqi
+Nim  : g231 16 0029
+
+
+membuat list.py
+motor = ["SupraX","Vario","Sonic"]
+print motor[1]
+
+hasil = Vario
+
+membuat tuppel.py
+tomat =('Merah','Matang','Bundar')
+print (tomat[1])
+
+hasil = Matang
+
+membuat dictionery.py
+skill = {
+    "utama": "Python",
+    "lainnya": ["PHP","Java", "HTML"]
+}
+print (skill["utama"])
+
+hasil = Python
