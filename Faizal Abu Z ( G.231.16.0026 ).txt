@@ -1,0 +1,38 @@
+//list....
+
+//membuat list keluarga kemudian mencetaknya
+keluarga = ['ayah','ibu','anak']
+print keluarga
+
+//menambahkan data dalam list keluarga
+keluarga.append('keponakan')
+print keluarga
+
+
+
+
+//tuple....
+
+//membuat tuple
+tup1 = ('ayah', 'ibu','anak', 1954, 1960,1990);
+tup2 = (1, 2, 3, 4, 5, 6, 7 );
+
+//mencetak tuple
+print "tup1[0]: ", tup1[0]
+print "tup2[1:5]: ", tup2[1:5]
+
+
+
+
+//dictionary
+
+//membuat dictionary
+data = {"nama":"nita","umur":20,"gender":"perempuan"}
+
+//mencetan dictionary
+print data['nama']
+print data['umur']
+
+//mencetak via loop
+for key in data:
+    print key,"==>", data[key]
