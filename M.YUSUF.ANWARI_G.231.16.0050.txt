@@ -1,0 +1,141 @@
+LIST.py
+list1 = ['Arik', 'Yusuf', 1994, 2018];
+list2 = [1, 2, 3, 4, 5 ];
+list3 = ["a", "b", "c", "d"]
+print (1)
+list1 = ['Arik', 'Yusuf', 1994, 2018];
+list2 = [1, 2, 3, 4, 5, 6, 7 ];
+print ("list1[0]: ", list1[0])
+print ("list2[1:5]: ", list2[1:5])
+print ( )
+print (2)
+list = ['Arik', 'Yusuf', 1994, 2018];
+print ("Nilai pada Index 2 : ")
+print (list[2])
+list[2] = 2019;
+print ("Nilai Baru pada Index 2 : ")
+print (list[2])
+print ( )
+print (3)
+list1 = ['Arik', 'Yusuf', 1994, 2018];
+print (list1)
+del (list1[2]);
+print ("Setelah Hapus Index 2 : ")
+print (list1)
+
+HASIL:
+$ python list.py
+1
+list1[0]:  Arik
+list2[1:5]:  [2, 3, 4, 5]
+
+2
+Nilai pada Index 2 :
+1994
+Nilai Baru pada Index 2 :
+2019
+
+3
+['Arik', 'Yusuf', 1994, 2018]
+Setelah Hapus Index 2 :
+['Arik', 'Yusuf', 2018]
+
+
+
+TUPLE.py
+tup1 = ('Arik', 'Yusuf', 1994, 2018);
+tup2 = (1, 2, 3, 4, 5 );
+tup3 = "a", "b", "c", "d";
+print (1)
+tup1 = ('Arik', 'Yusuf', 1994, 2018);
+tup2 = (1, 2, 3, 4, 5, 6, 7 );
+print ("tup1[0]: ", tup1[0]);
+print ("tup2[1:5]: ", tup2[1:5]);
+print ( )
+print (2)
+tup1 = (12, 34.56);
+tup2 = ('abc', 'xyz');
+# Following action is not valid for tuples
+# tup1[0] = 100;
+# So let's create a new tuple as follows
+tup3 = tup1 + tup2;
+print (tup3);
+print ( )
+print (3)
+tup = ('Arik', 'Yusuf', 1994, 2018);
+print (tup);
+del (tup);
+print ("Setelah Hapus tup : ");
+print (tup);
+
+HASIL:
+$ python tuple.py
+1
+tup1[0]:  Arik
+tup2[1:5]:  (2, 3, 4, 5)
+
+2
+(12, 34.56, 'abc', 'xyz')
+
+3
+('Arik', 'Yusuf', 1994, 2018)
+Setelah Hapus tup :
+Traceback (most recent call last):
+  File "tuple.py", line 27, in <module>
+    print (tup);
+NameError: name 'tup' is not defined
+
+
+DICTIONARY.py
+print ( )
+dict = {'Name': 'Arik', 'Age': 24, 'Class': 'FIK'}
+print ("dict['Name']: ", dict['Name'])
+print ("dict['Age']: ", dict['Age'])
+print ("dict['Class']: ", dict['Class'])
+print ( )
+print (2)
+dict = {'Name': 'Arik', 'Age': 24, 'Class': 'FIK'}
+print ("dict['Name'] :", dict['Name'])
+print ("dict['Age']: ", dict['Age'])
+print ("dict['Class']: ", dict['Class'])
+dict['Age'] = 25; # update umur
+dict['Class'] = "FE"; # tambah variabel baru
+print ("dict['Age'](baru): ", dict['Age'])
+print ("dict['Class'](baru): ", dict['Class'])
+print ( )
+print (3)
+dict = {'Name': 'Arik', 'Age': 24, 'Class': 'FIK'}
+print ("dict['Name'] :", dict['Name'])
+print ("dict['Age']: ", dict['Age'])
+print ( )
+print ('Hapus Key Class')
+del dict['Class']; # Hapus Key 'class'
+print ("dict['Name'] :", dict['Name'])
+print ("dict['Age']: ", dict['Age'])
+print ("dict['Class']: ", dict['Class'])
+
+HASIL:
+$ python dictionary.py
+
+dict['Name']:  Arik
+dict['Age']:  24
+dict['Class']:  FIK
+
+2
+dict['Name'] : Arik
+dict['Age']:  24
+dict['Class']:  FIK
+dict['Age'](baru):  25
+dict['Class'](baru):  FE
+
+3
+dict['Name'] : Arik
+dict['Age']:  24
+
+Hapus Key Class
+dict['Name'] : Arik
+dict['Age']:  24
+Traceback (most recent call last):
+  File "dictionary.py", line 28, in <module>
+    print ("dict['Class']: ", dict['Class'])
+KeyError: 'Class'
