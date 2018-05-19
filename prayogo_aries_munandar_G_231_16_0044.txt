@@ -1,0 +1,13 @@
+menampilkan nilai Tuple
+		lovebird = ('biola','albino','violet')print(lovebird[1])
+		
+menampilkan nilai Data List
+	  motor = ("ninja","satria","vixion","beat")print motor[2]
+		
+ menampilkan data dictioneri
+		orang  ={	"nama" : "yoga",
+					    "umur" : "25",
+					    "keseharian": "kerja","kuliah","tidur"
+					
+		print("nama saya adalah %s" % orang["nama"])
+		print("kegiatan saya adalah %s" % orang["kegiatan(1)"]
