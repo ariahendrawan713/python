@@ -1,0 +1,34 @@
+list : 
+sticker = ["cutting", "printing", "timbul"]
+cara menampilkan printing(index=1) :
+print sticker [1]
+cara menampilkan cutting(index=0) :
+print sticker [0]
+
+tuple :
+gunung = ('merapi', 'merbabu', 'sindoro')
+cara menampilkan gunung merapi(index=0)
+print gunung[0]
+cara menampilkan gunung merbabu(index=1)
+print gunung[1]
+
+dictionary:
+data = {'Nama': 'Taufiq', 'Umur': 21, 'Pekerjaan': 'Desain Grafis'}
+ 
+#menampilkan pekerjaan
+print ("data['Pekerjaan']: ", data['Pekerjaan']);
+hasil : ("data['Pekerjaan']: ", 'Desain Grafis')
+ 
+#menampilkan nama
+data = {'Nama': 'Taufiq', 'Umur': 21, 'Pekerjaan': 'Desain Grafis'}
+print ("data['Nama']: ", data['Nama'])
+("data['Nama']: ", 'Taufiq')
+
+dictonary bisa update data : 
+#menambahkan data
+data['Kota'] = 'Semarang';
+
+dictonary bisa hapus data : 
+del data['Pekerjaan'] # hapus entri dengan key 'Pekerjaan'
+data.clear()     # hapus semua entri di data
+
