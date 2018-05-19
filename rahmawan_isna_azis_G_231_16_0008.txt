@@ -1,0 +1,16 @@
+menampilkan nilai Tuple
+		binatang = ('kucing','kuda','ikan')
+		print(bintang[1])
+		
+menampilkan nilai Data List
+		buah = ("apel ","anggur",mangga","jeruk")
+		print buah[2]
+		
+ menampilkan data dictioneri
+		orang  ={
+					"nama" : "Dina",
+					"umur" : "25",
+					"hobi": "membaca","makan","tidur"
+					
+		print("nama saya adalah %s" % orang["nama"])
+		print("hobi saya adalah %s" % orang["hobi(1)"]
