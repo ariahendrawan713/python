@@ -1,0 +1,36 @@
+﻿script:
+
+rank = {'1':'Mythic', '2':'Legend', '3':'Epic', '4':'Grand Master', '5':'Master', '6':'Elite', '7':'Warrior'}
+print "Salah satu tier rank dalam game Mobile Legend adalah", rank ['3']
+
+running:
+
+erwin-VirtualBox erwin # nano dict.py
+erwin-VirtualBox erwin # python dict.py
+Salah satu tier rank dalam game Mobile Legend adalah Epic
+
+
+
+script:
+
+item = ('Scarlet Phantom', 'Berseker Fury', 'Windtalker')
+print "Item yang memberikan power critical yaitu", item [2]
+
+running:
+
+erwin-VirtualBox erwin # nano tuple.py
+erwin-VirtualBox erwin # python tuple.py
+Item yang memberikan power critical yaitu Windtalker
+
+
+
+script:
+
+hero = ['Cyclop', 'Helcurt', 'Angela', 'Hylos', 'Clint']
+print hero [0], "adalah hero dalam game Mobile Legend"
+
+running:
+
+erwin-VirtualBox erwin # nano list.py
+erwin-VirtualBox erwin # python list.py
+Cyclop adalah hero dalam game Mobile Legend
