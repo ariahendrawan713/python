@@ -29,5 +29,5 @@ city_pop = 340000
   print (sassy_combinations)
   
  3.dengan menmbahkan tanda pagar (#) di awal skrip.
-     print #city_name
-     print #city_pop
+    #city_name
+    #city_pop
