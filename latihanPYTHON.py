@@ -15,3 +15,19 @@ print happy_division
 city_name = "St. Potatosburg"
 city_pop = 340000
 %Bagaimana cara membuat komen?
+
+
+jawab
+no 1
+print (greeting_message)
+print (current_excercise)
+print (todays_date)
+no 2
+print (mirthful_addition)
+print (amazing_subtraction)
+print (trippy_multiplication)
+print (happy_division)
+print (sassy_combinations)
+no3
+#city_name
+#city_pop
