@@ -11,6 +11,25 @@ happy_division = 540 / 45
 sassy_combinations = 129 * 1345 + 120 / 6 - 12
 print happy_division
 %Bagaimana untuk menampilkan variabel mirthful_addition, amazing_subtraction,trippy_multiplication, dan sassy_combinations? 
+january_to_june_rainfall = 1.93 + 0.71 + 3.53 + 3.41 + 3.69 + 4.50
+annual_rainfall = january_to_june_rainfall
+
+july_rainfall = 1.05
+annual_rainfall += july_rainfall
+
+august_rainfall = 4.91
+annual_rainfall += august_rainfall
+
+september_rainfall = 5.16
+october_rainfall = 7.20
+november_rainfall = 5.06
+december_rainfall = 4.06
+fish_in_clarks_pond = 50
+
+print "happy_devision"
+
+number_of_fish_caught = 10
+fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught
 
 city_name = "St. Potatosburg"
 city_pop = 340000
