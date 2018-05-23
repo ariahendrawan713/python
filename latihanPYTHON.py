@@ -15,3 +15,19 @@ print happy_division
 city_name = "St. Potatosburg"
 city_pop = 340000
 %Bagaimana cara membuat komen?
+
+//////jawaban////
+1.dengan menambahkan tanda kurung.
+  print (greeting_message)
+  print (current_excercise)
+  print (todays_date)
+  
+2.dengan menambahkan tanda kurung.
+  print (mirthful_addition)
+  print (amazing_subtraction)
+  print (trippy_multiplication)
+  print (sassy_combinations)
+  
+ 3.dengan menmbahkan tanda pagar (#) di awal skrip.
+    #city_name
+    #city_pop
