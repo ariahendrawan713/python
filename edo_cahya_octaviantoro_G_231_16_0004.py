@@ -32,5 +32,4 @@ nomer 3
 #city_name
 #city_pop
 
-Nama_Edo_cahya_octaviantoro
-Nim_G_231_16_0004
+
