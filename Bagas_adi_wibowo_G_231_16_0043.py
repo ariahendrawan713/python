@@ -24,7 +24,7 @@ print (current_excercise)
 print (todays_date)
 no 2
 print (mirthful_addition)
-print (amazing_subtraction)
+print (amazing_subtraction) 
 print (trippy_multiplication)
 print (happy_division)
 print (sassy_combinations)
