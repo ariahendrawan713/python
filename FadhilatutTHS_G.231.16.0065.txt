@@ -1,0 +1,40 @@
+#Nama Fadhilatut Tasyriqul Hajjas Sabat
+#NIM : G.231.16.0065
+
+#Contoh List
+nama = ["saya","aku","kamu"]
+for x in nama:
+        print "nama:",(x)
+buah = ["Kelapa",'apel','mangga','jeruk','nanas']
+for i in buah:
+        print "jenis buah:",(i)
+Hari = ["Senin","selasa","rabu","kamis","jumat","sabtu","Minggu"]
+for y in Hari:
+        print "Nama Hari:",(y)
+
+#Contoh Tupple
+laptop = ("asus",'lenovo','dell','hp')
+for a in laptop:
+        print "Merek Laptop:",(a)
+printer = ('Canon','Epson','Brother','HP')
+for b in printer:
+        print "Merek Laptop:",(b)
+projector = ('LG','Optoma','Epson','Canon','BenQ')
+for c in projector:
+        print "Merek Projector:",(c)
+
+#Contoh Dictionary
+Menu = {"Cordon Bleu":21000,"Steak chicken Burger":19000,"Steak Sirloin":23000}
+for d in Menu:
+        print "Daftar Menu:",(d)
+        print "Harga:",Menu.values()
+
+Minum = {"blue lagoon":1,'manggo tea':2,'Sunrise':3,'Ice Tea':4}
+for e in Minum:
+        print "Daftar Minum:",e
+
+
+Sambal = {'Sambal Mangga Muda':1,'sambal Terasi':2,'Sambal Bawang':3,'Sambal Terasi Mentah':4}
+for f in Sambal:
+        print "Daftar Sambal:",f
+
