@@ -1,0 +1,43 @@
+M  Ivan Kurniawan
+G .231.16.0021
+
+
+Syntax tidak ada yg error ketika run dengan python 2.7
+greeting_message = "Welcometo Code cademy!"
+current_excercise = 5
+todays_date = "March 31, 2023"
+print greeting_message
+hasil run :
+Welcometo Code cademy!
+ 
+%Bagaimana untuk menampilkan variabel current_exercise dan todays_date?
+jawaban :
+print current_excercise
+print todays_date
+===================================================================================================================================
+ 
+Syntax tidak ada yang error dengan python 2.7
+mirthful_addition = 12381+91817
+amazing_subtraction = 981-312
+trippy_multiplication = 38*902
+happy_division = 540/45
+sassy_combinations = 129*1345+120/6-12
+print happy_division
+hasil run :
+12
+
+#Bagaimana untuk menampilkan variabel mirthful_addition, amazing_subtraction,trippy_multiplication, dan sassy_combinations?
+jawaban :
+print mirthful_addition
+print amazing_subtraction
+print trippy_multiplication
+print sassy_combinations
+===================================================================================================================================
+
+
+city_name = "St. Potatosburg"
+city_pop = 340000
+
+#Bagaimana cara membuat komen?
+jawab :
+#dengan memberi tanda '#' pada awal komentar seperti baris komentar ini
