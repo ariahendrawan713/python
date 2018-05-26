@@ -1,0 +1,27 @@
+list : 
+buah = ["jeruk", "apel", "mangga", "duren"]
+cara menampilkan apel(index=1) :
+print buah[1]
+
+tuple :
+bakwan = ('jagung', 'sayur')
+cara menampilkan bakwan jagung(index=0)
+print bakwan[0]
+
+
+dictionary:
+biodata = {'Nama': 'joko', 'Asal': 'semarang', 'Umur': 21, 'NoUrut': 1};
+ 
+#menampilkan nama
+print "Nama : ", biodata['Nama'];
+ 
+#menampilkan no urut
+print "No Urut: ", biodata['NoUrut'];
+
+berbeda dengan tuple , dictonary bisa update data : 
+#menambahkan data
+biodata['JenisKelamin'] = 'Pria';
+
+del biodata['Nama']; # menghapus key Nama
+biodata.clear(); # menghapus semua key pada dictionary
+del biodata; # menghapus dictionary
