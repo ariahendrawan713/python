@@ -1,0 +1,18 @@
+list :
+    buah = ["belimbing","anggur","semangka","melon"]
+    cara menampilkan anggur(index=1) :
+        print buah[1]
+
+tuple :
+    makanan = ('sate','nasi gudeg','mie ayam','bakso')
+    cara menampilkan makanan mie ayam(index=2)
+    print makanan[2]
+
+dictionary:
+    biodata ={'nama': 'Andi', 'kota lahir':'Semarang','Usia':24);
+
+    #menampilkan nama
+    print "nama : ", biodata['nama'];
+
+    #menampilkan kota kelahiran
+    print "kota lahir : ", biodata['kota lahir'];
