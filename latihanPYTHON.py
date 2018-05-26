@@ -15,3 +15,23 @@ print happy_division
 city_name = "St. Potatosburg"
 city_pop = 340000
 %Bagaimana cara membuat komen?
++
++
++ nomer 1
++ print (greeting_message)
++ print (current_excercise)
++ print (todays_date)
++
++ nomer 2
++ print (mirthful_addition)
++ print (amazing_subtraction)
++ print (trippy_multiplication)
++ print (happy_division)
++ print (sassy_combinations)
++
++ nomer 3
++#city_name
++#city_pop
++
++Nama_Joko_Aris_Ismunandar
++Nim_G_231_16_0015
