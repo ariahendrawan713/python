@@ -1,0 +1,1 @@
+print("please,be smart")
