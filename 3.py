@@ -1,1 +1,2 @@
-print("Please, be smart")
+Kunarso
+print("please be smart")
